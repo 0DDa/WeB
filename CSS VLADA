@@ -1,0 +1,60 @@
+*{
+	box-sizing: border-box
+}
+#main{
+	width: 1200px;
+	margin: 0 auto;
+	border: 5px solid black;
+}
+#header{
+	height: 155px;
+	border-bottom: 5px solid black;
+}
+#sidebar{
+	width: 200px;
+	height: 525px;
+	float: left;
+	border-right: 5px solid black;
+}
+#content{
+	width: 600px;
+	float: right;
+	height: 525px
+}
+#footer{
+	height: 100px;
+	clear: both;
+	border-top: 5px solid black;
+}
+#main{
+	background: #FFDAB9;
+}
+#header, #footer{
+	background: #BC8F8F;
+}
+#header{
+	background: #BC8F8F url(images/kotik.PNG) no-repeat 95% center
+}
+#title{
+	font-size: 32px;
+	float: left;
+	margin-left: 250px;
+	font-family: tahoma;
+	color: yellow;
+	padding-top: 30px;
+	text-shadow: 0 0 5px orange;
+}
+#about{
+	float: left;
+	list-style: none;
+	margin-left: -500px;
+}
+#about a{
+	color: yellow;
+}
+.menu{
+	list-style: none;
+}
+#footer{
+	text-align: center
+}
