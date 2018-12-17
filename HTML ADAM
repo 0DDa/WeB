@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Hello, world!</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link rel = "stylesheet" href = "style.css">
+		<style>
+		body
+			{
+				background: url(images/background.jpg)no-repeat;
+				background-size: 100%;
+			}
+		</style>
+	</head>
+	<body>
+		<div id = "main">
+		<div id = "header">
+			<div id = "title">Еще не придумал</div>
+		</div>
+		<div id = "sidebar"><div class="team">
+				<div class="col">
+					<div class="item">
+						<img src="images/adam.jpg" alt="Person 1">
+						<a href="http://www.vk.com/odda_00" target="_blank" class="icon vk">Вконтакте</a>
+						<a href="https://www.instagram.com/a_mushkenov" target="_blank" class="icon inst">Instagram</a>
+						<a href="https://steamcommunity.com/id/odda64" target="_blank" class="icon steam">Steam</a>
+						<a href="mailto:odda64@outlook.com" target="_blank" class="icon em">Написать мне</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div id = "content">Что-то обо мне...</div>
+		<div id = "footer">
+		<div class="clock">
+		<script type="text/javascript">  
+setInterval(function () {  
+ date = new Date(),  
+ h = date.getHours(),  
+ m = date.getMinutes(),  
+ s = date.getSeconds(),  
+ h = (h < 10) ? '0' + h : h,  
+ m = (m < 10) ? '0' + m : m,  
+ s = (s < 10) ? '0' + s : s,  
+ document.getElementById('time').innerHTML = h + ':' + m + ':' + s;  
+}, 1000);
+</script>
+<span style="color:green; font-size:14pt; border:2px solid green; background:black; padding:5px;">
+<span id="time">00:00:00</span>
+</span>
+</div>
+<div class="alert">
+		ALL RIGHTS ARE NOT RESERVED
+		</div>
+</div>
+		</div>
+	</body>
+</html>
