@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Жопа</title>
+<meta charset = "utf-8">
+<link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+<style>
+body
+{
+				background: url(images/background.jpg)no-repeat;
+				background-size: 100%;
+			}
+</style>
+<div id = "main">
+<div id = "header">
+	<div id = "title">Название сайта</div>
+	<ul id = "about">
+<li><a href = "#">О нас</a></li>
+<li><a href = "#">Блог</a></li>
+<li><a href = "#">Обратная связь</a></li>
+</ul>
+</div>
+<div id = "sidebar">
+		<ul class = "menu">
+		<h3>Меню</h3>
+		<li><a href = "#">Пункт меню1</a></li>
+		<li><a href = "#">Пункт меню2</a></li>
+<li><a href = "#">Пункт меню3</a></li>
+<li><a href = "#">Пункт меню4</a></li>
+<li><a href = "#">Пункт меню5</a></li>
+<li><a href = "#">Пункт меню6</a></li>
+</ul>
+
+</div>
+<div id = "content">
+<h2>Заголовок статьи</h2>
+<p>А здесь будет какая-нибудь статья. Она должна быть объемной, чтобы было что читать. И желательно писать что-то, что может быть полезно людям.</p>
+<p>Содержимое в статье разбивается на абзацы и подзаголовки, чтобы ее было легче читать и воспринимать. Например, вот подзаголовок.</p>
+<h3>Подзаголовок статьи</h3>
+<p>Также по ходу статьи важные слова можно выделять жирным шрифтом или другим цветом, чтобы привлекать к ним внимание.</p>
+</div>
+<div id = "footer">Владуся - Жопа</div>
+</div>
+</body>
+</html>
