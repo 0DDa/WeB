@@ -15,7 +15,7 @@
 	<body>
 		<div id = "main">
 		<div id = "header">
-			<div id = "title">Еще не придумал</div>
+			<div id = "title">WEB-STRANICA</div>
 		</div>
 		<div id = "sidebar"><div class="team">
 				<div class="col">
@@ -30,7 +30,8 @@
 			</div>
 		</div>
 		
-		<div id = "content">Что-то обо мне...</div>
+		<div id = "content">Я не творческая личность и придумать контент
+		для меня реальная беда</div>
 		<div id = "footer">
 		<div class="clock">
 		<script type="text/javascript">  
